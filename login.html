@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    
+    <h1>Login</h1>
+   
+    
+    <form method="post">
+        <label for="id">National ID number</label>
+        <input type="id" name="id" id="id"
+               value="<?= htmlspecialchars($_POST["email"] ?? "") ?>">
+        
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        
+        <button>Log in</button>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
