@@ -1,0 +1,469 @@
+.container-5-icon {
+    width: 100%;
+    height: 68px;
+    position: absolute;
+    margin: 0 !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .bill-title {
+    text-decoration: none;
+    position: relative;
+    line-height: 40px;
+    color: inherit;
+    display: inline-block;
+    min-width: 97px;
+    white-space: nowrap;
+  }
+  .caret-left-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .textbox-1,
+  .title-caret {
+    display: flex;
+    align-items: flex-start;
+  }
+  .title-caret {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 8px 0 0;
+  }
+  .textbox-1 {
+    height: 68px;
+    width: 374px;
+    border-radius: 2px;
+    background-color: #f8f9fa;
+    border: 1px solid #2c2f34;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13.5px var(--padding-2xl) 12.5px var(--padding-xl);
+    flex-shrink: 0;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .bill-subtitle {
+    height: 0;
+    width: 0;
+    position: relative;
+    line-height: 28px;
+    display: inline-block;
+  }
+  .bill-header,
+  .textbox-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .textbox-2 {
+    height: 68px;
+    width: 41px;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    padding: 19.5px var(--padding-lgi) 46.5px var(--padding-xl);
+    flex-shrink: 0;
+    z-index: 1;
+    font-size: var(--font-size-lg);
+  }
+  .bill-header {
+    align-self: stretch;
+    height: 66px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 26px;
+    color: var(--color-gray-100);
+    font-family: var(--font-inter);
+  }
+  .summary {
+    text-decoration: none;
+    position: relative;
+    line-height: 26px;
+    color: inherit;
+    display: inline-block;
+    min-width: 72px;
+  }
+  .increasing-funding-and,
+  .infrastructure,
+  .the-public-transportation,
+  .this-bill-proposes {
+    margin: 0;
+  }
+  .this-bill-proposes-container {
+    position: relative;
+    line-height: 20px;
+  }
+  .background-information {
+    position: relative;
+    line-height: 30px;
+  }
+  .background,
+  .summary-content,
+  .summary-paragraph {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .background {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-lgi);
+    color: var(--color-gray-100);
+  }
+  .summary-content,
+  .summary-paragraph {
+    flex-direction: column;
+  }
+  .summary-paragraph {
+    gap: 27px;
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+  }
+  .summary-content {
+    gap: 12px;
+  }
+  .key-points {
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    min-width: 94px;
+  }
+  .increase-funding-for,
+  .transportation-projects {
+    margin: 0;
+  }
+  .increase-funding-for-container {
+    position: relative;
+    line-height: 21px;
+    color: var(--color-gray-100);
+  }
+  .improve-infrastructure-and,
+  .introduce-new-eco-friendly {
+    margin: 0;
+  }
+  .improve-infrastructure-and-container {
+    position: relative;
+    line-height: 23px;
+  }
+  .enhance-accessibility-for,
+  .trains {
+    margin: 0;
+  }
+  .individuals,
+  .trainsenhance-accessibility-fo-container {
+    position: relative;
+    line-height: 23px;
+  }
+  .individuals {
+    line-height: 24px;
+    display: inline-block;
+    min-width: 75px;
+    z-index: 1;
+  }
+  .key-points-item {
+    flex: 1;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .key-points-content,
+  .key-points-item,
+  .key-points-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .key-points-list {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 24px;
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+  }
+  .key-points-content {
+    flex: 1;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .key-points-content-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 6px 0 var(--padding-12xs);
+    font-size: var(--font-size-lgi);
+  }
+  .bill-content,
+  .bill-summary,
+  .key-points-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .bill-summary {
+    width: 301px;
+    flex-direction: column;
+    gap: 178px;
+  }
+  .bill-content {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-6xl) 4px;
+    text-align: left;
+    font-size: 16px;
+    color: var(--color-gray-100);
+    font-family: var(--font-inter);
+  }
+  .related-documents {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .related-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    font-size: 21px;
+    font-family: var(--font-epilogue);
+  }
+  .bill-text-document {
+    position: relative;
+    line-height: 24px;
+    color: var(--color-darkturquoise-200);
+  }
+  .policy-analysis-report,
+  .public-opinion-survey {
+    margin: 0;
+  }
+  .policy-analysis-reportpublic-container {
+    position: relative;
+    line-height: 24px;
+    color: var(--color-darkturquoise-200);
+  }
+  .voting-status {
+    position: relative;
+    font-size: var(--font-size-lgi);
+    line-height: 30px;
+  }
+  .current-status-in,
+  .votes-85-in {
+    position: relative;
+    line-height: 24px;
+  }
+  .votes-85-in {
+    margin-top: -4px;
+  }
+  .container-4,
+  .related-info,
+  .vote-count {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vote-count {
+    height: 20px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container-4,
+  .related-info {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .container-4 {
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    border-radius: var(--br-5xs);
+    background-color: #dee1e6;
+    padding: var(--padding-lgi) var(--padding-mid) var(--padding-smi);
+  }
+  .related-info {
+    padding: 0 0 12px;
+    gap: 4.5px;
+  }
+  .comments {
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    min-width: 98px;
+  }
+  .jane-smith-i {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .time-we-improve,
+  .transportation-system {
+    margin: 0;
+  }
+  .hours-ago,
+  .jane-smith-i-container {
+    position: relative;
+    line-height: 21px;
+  }
+  .hours-ago {
+    font-size: var(--font-size-sm);
+    line-height: 22px;
+    color: var(--color-lightslategray-100);
+    display: inline-block;
+    min-width: 79px;
+  }
+  .container-8,
+  .user-comments {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container-8 {
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-200);
+    padding: var(--padding-lgi) var(--padding-mid) var(--padding-smi);
+    gap: 5px;
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+  }
+  .user-comments {
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-lgi);
+  }
+  .daily-commute,
+  .john-doe-this,
+  .will-make-a {
+    margin: 0;
+  }
+  .hours-ago1,
+  .john-doe-this-container {
+    position: relative;
+    line-height: 21px;
+  }
+  .hours-ago1 {
+    font-size: var(--font-size-sm);
+    line-height: 22px;
+    color: var(--color-lightslategray-100);
+    display: inline-block;
+    min-width: 79px;
+  }
+  .container-7 {
+    align-self: stretch;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-200);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lgi) var(--padding-mid) 14px;
+    gap: var(--gap-9xs);
+    color: var(--color-dimgray);
+  }
+  .mary-johnson-i,
+  .soon-its-much {
+    margin: 0;
+  }
+  .day-ago,
+  .mary-johnson-i-container {
+    position: relative;
+    display: inline-block;
+  }
+  .mary-johnson-i-container {
+    width: 262px;
+    line-height: 19px;
+  }
+  .day-ago {
+    font-size: var(--font-size-sm);
+    line-height: 22px;
+    color: var(--color-lightslategray-100);
+    min-width: 64px;
+    z-index: 1;
+    margin-top: -11px;
+  }
+  .container-6,
+  .discussion,
+  .related-info-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container-6 {
+    align-self: stretch;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-200);
+    flex-direction: column;
+    padding: var(--padding-xl) var(--padding-mid) var(--padding-smi);
+    color: var(--color-dimgray);
+  }
+  .discussion,
+  .related-info-parent {
+    max-width: 100%;
+  }
+  .related-info-parent {
+    width: 323px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .discussion {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-6xl) var(--padding-2xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-gray-100);
+    font-family: var(--font-inter);
+  }
+  .text {
+    height: 0;
+    width: 0;
+    position: relative;
+    line-height: 28px;
+    display: inline-block;
+  }
+  .bill-info,
+  .textbox-3 {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .textbox-3 {
+    margin-right: -21px;
+    width: 41px;
+    height: 67px;
+    border-radius: var(--br-9xs);
+    border: 1px solid var(--color-silver);
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--padding-lgi) var(--padding-lgi) 46px var(--padding-xl);
+    z-index: 1;
+  }
+  .bill-info {
+    width: 100%;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 0 3px;
+    gap: 19px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-100);
+    font-family: var(--font-inter);
+  }

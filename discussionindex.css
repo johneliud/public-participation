@@ -1,0 +1,568 @@
+.a {
+    text-decoration: none;
+    position: relative;
+    line-height: 24px;
+    color: inherit;
+    display: inline-block;
+    min-width: 10px;
+    white-space: nowrap;
+  }
+  .topic-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+  }
+  .publicvoice {
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: var(--font-epilogue);
+    color: inherit;
+    display: inline-block;
+    min-width: 119px;
+    white-space: nowrap;
+  }
+  .new-topic-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .new-topic-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 3px;
+  }
+  .new-topic {
+    text-decoration: none;
+    position: relative;
+    font-size: 12px;
+    line-height: 21px;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 60px;
+  }
+  .button-1 {
+    cursor: pointer;
+    border: 0;
+    padding: 8.5px var(--padding-4xl);
+    background-color: #fe763e;
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .container-1,
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .container-1 {
+    flex: 1;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    background-color: #f8f9f9;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-base) 33px 17px var(--padding-4xl);
+    gap: var(--gap-xl);
+  }
+  .sidebar {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 5px;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-gray-100);
+    font-family: var(--font-inter);
+  }
+  .sort-by-popularity,
+  .sort-by-recency {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 128px;
+  }
+  .sort-by-recency {
+    text-decoration: none;
+    color: inherit;
+    min-width: 117px;
+  }
+  .dropdown {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 0 0 var(--padding-12xs);
+    gap: var(--gap-xl);
+  }
+  .discussion-on-healthcare {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .started-by-alice {
+    position: relative;
+    line-height: 24px;
+  }
+  .healthcare-bill,
+  .what-are-your {
+    margin: 0;
+  }
+  .what-are-your-container {
+    position: relative;
+    line-height: 18px;
+    color: var(--color-dimgray);
+  }
+  .healthcare,
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .info {
+    gap: 8px;
+    margin-top: -3px;
+    font-size: var(--font-size-mini);
+    color: var(--color-lightslategray-100);
+    font-family: var(--font-inter);
+  }
+  .healthcare {
+    align-self: stretch;
+  }
+  .upvote {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 23px;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .button-7 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-7xs-5) var(--padding-smi);
+    background-color: var(--color-gainsboro-200);
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .downvote {
+    position: relative;
+    line-height: 27px;
+    display: inline-block;
+    min-width: 86px;
+  }
+  .button-4,
+  .vote {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button-4 {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-gainsboro-200);
+    overflow: hidden;
+    padding: var(--padding-9xs-5) var(--padding-7xs);
+  }
+  .vote {
+    gap: var(--gap-6xs);
+  }
+  .comment {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 69px;
+  }
+  .add-comment,
+  .engagement-bar {
+    display: flex;
+    align-items: flex-start;
+  }
+  .add-comment {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+  }
+  .engagement-bar {
+    width: 302px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-lg);
+    font-family: var(--font-inter);
+  }
+  .container-2,
+  .discussions,
+  .sort {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .container-2 {
+    align-self: stretch;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    border-radius: 12.48px;
+    background-color: var(--color-white);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-lgi) 12px var(--padding-lgi) var(--padding-lg);
+    gap: 18px;
+    font-size: 21px;
+    color: var(--color-gray-100);
+    font-family: var(--font-epilogue);
+  }
+  .discussions,
+  .sort {
+    max-width: 100%;
+  }
+  .sort {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  .discussions {
+    width: 373px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-base);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+    font-family: var(--font-inter);
+  }
+  .discussion,
+  .environmental-policy {
+    margin: 0;
+  }
+  .environmental-policydiscussion {
+    position: relative;
+    line-height: 24px;
+  }
+  .discussion-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    font-size: 19px;
+  }
+  .started-by-john {
+    color: var(--color-lightslategray-100);
+  }
+  .environmental-policy1,
+  .lets-talk-about,
+  .started-by-john {
+    position: relative;
+    line-height: 24px;
+  }
+  .environmental-policy1 {
+    margin-top: -3px;
+  }
+  .engagement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 7px;
+    color: var(--color-dimgray);
+  }
+  .upvote1 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 23px;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .button-6 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-7xs-5) var(--padding-smi);
+    background-color: var(--color-gainsboro-200);
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .downvote1 {
+    position: relative;
+    line-height: 27px;
+    display: inline-block;
+    min-width: 86px;
+  }
+  .actions,
+  .button-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button-3 {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-gainsboro-200);
+    overflow: hidden;
+    padding: var(--padding-9xs-5) var(--padding-7xs);
+  }
+  .actions {
+    gap: var(--gap-6xs);
+  }
+  .comment1 {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 69px;
+  }
+  .engagement-actions,
+  .reply-action {
+    display: flex;
+    align-items: flex-start;
+  }
+  .reply-action {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+  }
+  .engagement-actions {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-lg);
+  }
+  .container,
+  .container-4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .container-4 {
+    flex: 1;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    border-radius: 12.48px;
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: 22px var(--padding-lg) var(--padding-lgi);
+    gap: 5px;
+  }
+  .container {
+    width: 373px;
+    flex-direction: row;
+    padding: 0 var(--padding-base);
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-gray-100);
+    font-family: var(--font-inter);
+  }
+  .education-reform-bill {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .education-reform-bill-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-12xs);
+    font-family: var(--font-epilogue);
+  }
+  .discussion1 {
+    position: relative;
+    line-height: 26px;
+    display: inline-block;
+    min-width: 87px;
+  }
+  .discussion-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    font-size: 17px;
+  }
+  .started-by-michael {
+    position: relative;
+    font-size: var(--font-size-mini);
+    line-height: 24px;
+    color: var(--color-lightslategray-100);
+  }
+  .frame-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .changes-in-education,
+  .how-do-you {
+    margin: 0;
+  }
+  .how-do-you-container {
+    position: relative;
+    line-height: 19px;
+  }
+  .how-do-you-feel-about-the-prop-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-3xs);
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+  }
+  .upvote2 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 23px;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .button-5 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-7xs-5) var(--padding-smi);
+    background-color: var(--color-gainsboro-200);
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .downvote2 {
+    position: relative;
+    line-height: 27px;
+    display: inline-block;
+    min-width: 86px;
+  }
+  .button-2,
+  .button-5-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button-2 {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-gainsboro-200);
+    overflow: hidden;
+    padding: var(--padding-9xs-5) var(--padding-7xs);
+  }
+  .button-5-parent {
+    gap: var(--gap-6xs);
+  }
+  .comment2 {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 69px;
+  }
+  .comment-wrapper,
+  .frame-group {
+    display: flex;
+    align-items: flex-start;
+  }
+  .comment-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+  }
+  .frame-group {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-lg);
+  }
+  .container-3 {
+    flex: 1;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    border-radius: 12.48px;
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: var(--padding-lg);
+    gap: var(--gap-6xs);
+    max-width: 100%;
+  }
+  .container-3,
+  .container1,
+  .discussion-forum {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .container1 {
+    width: 373px;
+    flex-direction: row;
+    padding: 0 var(--padding-base);
+    max-width: 100%;
+    text-align: left;
+    font-size: 22px;
+    color: var(--color-gray-100);
+    font-family: var(--font-inter);
+  }
+  .discussion-forum {
+    width: 100%;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 0 var(--padding-base);
+    gap: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
